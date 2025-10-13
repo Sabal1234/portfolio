@@ -1,5 +1,5 @@
 import './Hero.css'
-import profile_img from '../../../assets/profile.jpg'
+import profile_img from '../../assets/profile.jpg'
 const Hero = () => {
   return (
       <div className='hero'>
