@@ -6,7 +6,9 @@ gap:35px;
 }
 .hero img{
     margin-top: 150px;
-    
+    width: 274px;
+    height: 274px;
+    border-radius: 50%;
 }
 .hero h1{
     text-align: center;
