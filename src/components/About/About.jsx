@@ -37,12 +37,10 @@ const About = () => {
                   <h1>20+</h1>
                   <p>PROJECT COMPLETED</p>
                
-              </div>
-                 
-  
-             
+              </div>   
           </div>
     </div>
   )
 }
 export default About
+
