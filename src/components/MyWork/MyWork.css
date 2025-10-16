@@ -22,6 +22,18 @@
 }
 .mywork-container{
     display: grid;
-    /* grid-template-columns: 1fr 1fr 1fr; */
+    grid-template-columns: 1fr 1fr 1fr;
     gap: 40px;
+}
+.mywork-container img{
+    box-sizing: border-box;
+    width: 419px;
+    height: 280px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+.mywork-container img:hover{
+    transform: scale(1.10);
+    border: 4px solid #ff00ff;
+    transition: 0.3s;
 }
