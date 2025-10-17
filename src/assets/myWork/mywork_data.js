@@ -4,36 +4,52 @@ import rockpapergame from './rockpapergame.png'
 import todoList from './todoList.png'
 import youtubeclone from './youtubeclone.png'
 import mealSearch from './meal.png'
+import timer from './Timer.png'
+import taskManagement from './TaskManager.png'
 const mywork_data = [
     {
         w_no: 1,
+        w_name: "Task Management",
+        w_img:taskManagement  
+    },
+            {
+        w_no: 2,
+        w_name: "Note Management",
+        w_img:noteManagement
+    },
+     {
+                       w_no: 3,
+        w_name: "Timer",
+        w_img:timer 
+    },
+           {
+        w_no: 4,
+        w_name: "To-DO List",
+        w_img:todoList
+    },
+        
+    {
+        w_no: 5,
         w_name: "Search movie",
         w_img:movieSearch
     },
         {
-        w_no: 2,
+        w_no: 6,
         w_name: "Youtube Clone",
         w_img:youtubeclone
     },
-            {
-        w_no: 3,
-        w_name: "To-DO List",
-        w_img:todoList
-    },
-                {
-        w_no: 4,
-        w_name: "Note Management",
-        w_img:noteManagement
-    },
+     
                     {
-        w_no: 5,
+        w_no: 7,
         w_name: "Rock Paper Scissors game",
         w_img:rockpapergame
     },
     {
-                          w_no: 6,
+                          w_no: 8,
         w_name: "Meal search",
         w_img:mealSearch 
-                    }
+    },
+   
+    
 ]
 export default mywork_data;
