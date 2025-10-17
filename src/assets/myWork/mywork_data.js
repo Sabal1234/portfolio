@@ -3,6 +3,7 @@ import noteManagement from './noteManagement.png'
 import rockpapergame from './rockpapergame.png'
 import todoList from './todoList.png'
 import youtubeclone from './youtubeclone.png'
+import mealSearch from './meal.png'
 const mywork_data = [
     {
         w_no: 1,
@@ -29,5 +30,10 @@ const mywork_data = [
         w_name: "Rock Paper Scissors game",
         w_img:rockpapergame
     },
+    {
+                          w_no: 6,
+        w_name: "Meal search",
+        w_img:mealSearch 
+                    }
 ]
 export default mywork_data;

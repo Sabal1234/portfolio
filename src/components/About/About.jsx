@@ -13,25 +13,22 @@ const About = () => {
               </div>
               <div className="about-right">
                   <div className="about-para">
-                      <p>My passion for frontend and backend development is not reflected in my extensive experience but also in the enthusiasm and dedication I bring to each peoject</p>
+                      <p>My passion for frontend development is not reflected in my extensive experience but also in the enthusiasm and dedication I bring to each project</p>
                   </div>
                   <div className="about-skills">
                       <div className="about-skill"><p>HTML & CSS</p><hr style={{ width: "50%" }} />     </div>
                        <div className="about-skill">  <p>Tailwind CSS</p><hr style={{width:"60%"}} /></div>
                          <div className="about-skill"> <p>React JS</p><hr style={{width:"70%"}} /></div>
-                       <div className="about-skill">  <p>JavaScript</p><hr style={{width:"60%"}} /></div>
-                         <div className="about-skill">  <p>Node JS</p><hr style={{width:"50%"}} /></div>
+                       <div className="about-skill">  <p>JavaScript</p><hr style={{width:"65%"}} /></div>
+                      <div className="about-skill">  <p>Node JS</p><hr style={{ width: "45%" }} /></div>
                       
                  
                   </div>
               </div>
           </div>
           <div className="about-achievements">
-              <div className="about-achievement">
-                  <h1>7+</h1>
-                  <p>MOTHS OF EXPERIENCE</p>
-              </div>
-              <hr />
+            
+              
                 <div className="about-achievement">
                   <h1>10+</h1>
                   <p>PROJECT COMPLETED</p>
