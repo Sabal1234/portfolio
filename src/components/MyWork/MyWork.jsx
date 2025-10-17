@@ -4,10 +4,10 @@ import mywork_data from '../../assets/myWork/mywork_data'
 
 const MyWork = () => {
   return (
-      <div className='mywork'>
+      <div id='work' className='mywork'>
           <div className="mywork-title">
               <h1>My Work</h1>
-              <img src="" alt="errro"/>
+              
           </div>  
           <div className="mywork-container">
               {mywork_data.map((work,index) => {

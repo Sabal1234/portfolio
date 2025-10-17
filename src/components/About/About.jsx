@@ -3,10 +3,9 @@ import './About.css'
 import profile_img from '../../assets/profile.jpg'
 const About = () => {
   return (
-      <div className='about'>
+      <div id='about' className='about'>
           <div className="about-title">
               <h1>About me</h1>
-              <img src="" alt="img" />
           </div>
           <div className="about-sections">
               <div className="about-left">
@@ -14,7 +13,7 @@ const About = () => {
               </div>
               <div className="about-right">
                   <div className="about-para">
-                      <p>My passion for frontend development is not reflectedin my extensive experience but also in the enthusiasm and dedication I bring to each peoject</p>
+                      <p>My passion for frontend and backend development is not reflected in my extensive experience but also in the enthusiasm and dedication I bring to each peoject</p>
                   </div>
                   <div className="about-skills">
                       <div className="about-skill"><p>HTML & CSS</p><hr style={{ width: "50%" }} />     </div>
@@ -29,12 +28,12 @@ const About = () => {
           </div>
           <div className="about-achievements">
               <div className="about-achievement">
-                  <h1>1</h1>
-                  <p>YEARS OF EXPERIENCE</p>
+                  <h1>7+</h1>
+                  <p>MOTHS OF EXPERIENCE</p>
               </div>
               <hr />
                 <div className="about-achievement">
-                  <h1>20+</h1>
+                  <h1>10+</h1>
                   <p>PROJECT COMPLETED</p>
                
               </div>   

@@ -1,18 +1,15 @@
 import React, { useState } from 'react'
 import './Navbar.css'
+import AnchorLink from 'react-anchor-link-smooth-scroll';
 const Navbar = () => {
   const [menu,setMenu]=useState("home")
   return (
       <div className='navbar'>
-          <img src="" alt="error" />
           <ul className='nav-menu'>
-        <li><p onClick={()=>setMenu("home")}>Home</p>{ menu==="home"?<img src='' alt='image not shown'/>:<></>}</li>
-              <li><p onClick={()=>setMenu("about")}>About Me</p>{ menu==="about"?<img src='' alt='image not shown'/>:<></>}</li>
-              <li><p onClick={()=>setMenu("services")}>Services</p>{ menu==="services"?<img src='' alt='image not shown'/>:<></>}</li>
-              <li><p onClick={()=>setMenu("work")}>Portfolio</p>{ menu==="home"?<img src='' alt='image not shown'/>:<></>}</li>
-              <li><p onClick={()=>setMenu("contact")}>Contact</p>{ menu==="home"?<img src='' alt='image not shown'/>:<></>}</li>
+        <li><AnchorLink className='anchor-link 'offset={50} href='#home'><p onClick={()=>setMenu("home")}>Home</p></AnchorLink></li>
+        <li><AnchorLink className='anchor-link 'offset={50} href='#about'><p onClick={() => setMenu("about")}>About Me</p></AnchorLink></li>
+              <li><AnchorLink className='anchor-link 'offset={50} href='#work'><p onClick={()=>setMenu("work")}>work</p></AnchorLink></li>
           </ul>
-          <div className="nav-connect">Connect with me</div>
     </div>
   )
 }

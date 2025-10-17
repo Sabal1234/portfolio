@@ -3,15 +3,16 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap: 80px;
-    margin: 80px 70px;
+   gap: 5rem;          
+margin: 5rem 4rem;  
+
 }
 .mywork-title{
     position: relative;
 }
 .mywork-title h1{
-    padding: 0px 30px;
-    font-size: 80px;
+    padding: 0em 2rem;
+    font-size: 3rem;
     font-weight: 600;
 }
 .mywork-title img{
@@ -23,12 +24,12 @@
 .mywork-container{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    gap: 40px;
+    gap:2.5rem;
 }
 .mywork-container img{
     box-sizing: border-box;
-    width: 419px;
-    height: 280px;
+   width: 26rem;
+height: 17rem;
     transition: 0.3s;
     cursor: pointer;
 }
