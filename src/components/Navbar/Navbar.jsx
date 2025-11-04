@@ -8,7 +8,7 @@ const Navbar = () => {
           <ul className='nav-menu'>
         <li><AnchorLink className='anchor-link 'offset={50} href='#home'><p onClick={()=>setMenu("home")}>Home</p></AnchorLink></li>
         <li><AnchorLink className='anchor-link 'offset={50} href='#about'><p onClick={() => setMenu("about")}>About Me</p></AnchorLink></li>
-              <li><AnchorLink className='anchor-link 'offset={50} href='#work'><p onClick={()=>setMenu("work")}>work</p></AnchorLink></li>
+              <li><AnchorLink className='anchor-link 'offset={50} href='#work'><p onClick={()=>setMenu("work")}>Project</p></AnchorLink></li>
           </ul>
     </div>
   )

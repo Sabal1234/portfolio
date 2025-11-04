@@ -6,7 +6,7 @@ const MyWork = () => {
   return (
       <div id='work' className='mywork'>
           <div className="mywork-title">
-              <h1>My Work</h1>
+              <h1>My Project</h1>
               
           </div>  
           <div className="mywork-container">
