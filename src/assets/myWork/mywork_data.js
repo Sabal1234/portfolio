@@ -6,6 +6,7 @@ import youtubeclone from './youtubeclone.png'
 import mealSearch from './meal.png'
 import timer from './Timer.png'
 import taskManagement from './TaskManager.png'
+import form from './form.png'
 const mywork_data = [
     {
         w_no: 1,
@@ -49,7 +50,11 @@ const mywork_data = [
         w_name: "Meal search",
         w_img:mealSearch 
     },
-   
+    {
+        w_no: 9,
+        w_name: "Form",
+        w_img:form
+   }
     
 ]
 export default mywork_data;
