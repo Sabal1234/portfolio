@@ -3,6 +3,8 @@ import About from './components/About/About.jsx'
 import Hero from './components/Hero/Hero.jsx'
 import MyWork from './components/MyWork/MyWork.jsx'
 import Navbar from './components/Navbar/Navbar.jsx'
+import "./styles/mobile.css";
+
 
 const App = () => {
   return (
